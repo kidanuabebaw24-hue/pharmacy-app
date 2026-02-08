@@ -1,0 +1,21 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+
+linter:
+  rules:
+    - always_declare_return_types
+    - cancel_subscriptions
+    - close_sinks
+    - comment_references
+    - one_member_abstracts
+    - only_throw_errors
+    - package_api_docs
+    - prefer_const_constructors
+    - prefer_final_locals
+    - depend_on_referenced_packages
+    - sort_child_properties_last
+    - unawaited_futures
+    - unnecessary_await_in_return
